@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.adminController">
+   <children>
+      <Accordion layoutX="53.0" layoutY="22.0" prefHeight="464.0" prefWidth="902.0" style="-fx-background-color: lightslategrey; -fx-background-radius: 10 10 10 10;">
+        <panes>
+          <TitledPane animated="false" text="Print result base on category">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="338.0" prefWidth="898.0">
+                     <children>
+                        <JFXButton graphicTextGap="10.0" layoutX="688.0" layoutY="291.0" prefHeight="25.0" prefWidth="198.0" style="-fx-background-color: darkgrey;" text="Print report">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/print.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="Print result base on total average">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <JFXButton graphicTextGap="10.0" layoutX="688.0" layoutY="291.0" prefHeight="25.0" prefWidth="198.0" style="-fx-background-color: darkgrey;" text="Print report">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/print.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="Print raw score of all candidates">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <JFXButton graphicTextGap="10.0" layoutX="688.0" layoutY="291.0" prefHeight="25.0" prefWidth="198.0" style="-fx-background-color: darkgrey;" text="Print report">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/print.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+            <TitledPane animated="false" layoutX="10.0" layoutY="85.0" prefHeight="130.0" prefWidth="845.0" text="Print score from judge">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="61.0" prefWidth="843.0">
+                     <children>
+                        <JFXButton graphicTextGap="10.0" layoutX="688.0" layoutY="291.0" prefHeight="25.0" prefWidth="198.0" style="-fx-background-color: darkgrey;" text="Print report">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/print.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </TitledPane>
+            <TitledPane animated="false" layoutX="10.0" layoutY="60.0" text="Print score on specicfic candidate">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <JFXButton graphicTextGap="10.0" layoutX="688.0" layoutY="291.0" prefHeight="25.0" prefWidth="198.0" style="-fx-background-color: darkgrey;" text="Print report">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/print.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </TitledPane>
+        </panes>
+      </Accordion>
+   </children>
+</AnchorPane>

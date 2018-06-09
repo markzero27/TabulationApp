@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="710.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.mainController">
+   <children>
+      <VBox layoutX="7.0" layoutY="158.0" prefHeight="500.0" prefWidth="258.0" spacing="10.0" style="-fx-background-color: grey;" AnchorPane.topAnchor="158.0">
+         <children>
+            <JFXButton fx:id="btn_overview" alignment="BASELINE_LEFT" graphicTextGap="10.0" onAction="#ButtonClick" prefHeight="45.0" prefWidth="260.0" stylesheets="@../css/style.css" text="Overview" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/overview.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="70.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btn_tabulation" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="10.0" onAction="#ButtonClick" prefHeight="45.0" prefWidth="260.0" stylesheets="@../css/style.css" text="Tabulation" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/list.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="70.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btn_admin" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="65.0" onAction="#ButtonClick" prefHeight="45.0" prefWidth="260.0" stylesheets="@../css/style.css" text="Result" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/report.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="70.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btn_stats" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="120.0" onAction="#ButtonClick" prefHeight="45.0" prefWidth="260.0" stylesheets="@../css/style.css" text="Statistics" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/stats.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="70.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <Separator prefWidth="200.0" />
+            <JFXButton fx:id="btn_config" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="175.0" prefHeight="45.0" prefWidth="260.0" stylesheets="@../css/style.css" text="Configuration" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/setting.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="70.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btn_about" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="230.0" prefHeight="45.0" prefWidth="260.0" stylesheets="@../css/style.css" text="About" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/about.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="70.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btn_exit" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="285.0" onAction="#exit" prefHeight="45.0" prefWidth="260.0" stylesheets="@../css/style.css" text="Exit" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/exit.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="70.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+
+         </children>
+         <padding>
+            <Insets top="70.0" />
+         </padding>
+      </VBox>
+      <Pane fx:id="topPane" layoutX="7.0" layoutY="6.0" prefHeight="141.0" prefWidth="1269.0" style="-fx-background-radius: 10 10 0 0;" styleClass="background" stylesheets="@../css/style.css">
+         <children>
+            <Label alignment="CENTER" layoutX="263.0" layoutY="44.0" prefHeight="53.0" prefWidth="89.0" style="-fx-background-color: white; -fx-border-style: solid; -fx-border-width: 2px;" text="T R I">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="260.0" layoutY="101.0" prefHeight="34.0" prefWidth="209.0" text="C  O  L  L  E  G  E  S" textAlignment="CENTER" textOverrun="CLIP" wrapText="true">
+               <font>
+                  <Font name="Cambria Bold" size="24.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+            <Pane layoutX="61.0" layoutY="36.0" prefHeight="163.0" prefWidth="164.0" style="-fx-background-color: white;">
+               <children>
+                  <Pane layoutX="9.0" layoutY="46.0" prefHeight="110.0" prefWidth="147.0" style="-fx-background-color: red;">
+                     <children>
+                        <Pane layoutX="25.0" layoutY="-41.0" prefHeight="97.0" prefWidth="25.0" style="-fx-background-color: black;" />
+                        <Pane layoutX="61.0" layoutY="-41.0" prefHeight="97.0" prefWidth="25.0" style="-fx-background-color: black;" />
+                        <Pane layoutX="95.0" layoutY="-41.0" prefHeight="97.0" prefWidth="25.0" style="-fx-background-color: black;" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Label alignment="CENTER" layoutX="352.0" layoutY="44.0" prefHeight="53.0" prefWidth="113.0" style="-fx-background-color: black; -fx-border-style: solid; -fx-border-width: 2;" text="M E X" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="pane" layoutX="271.0" layoutY="158.0" prefHeight="500.0" prefWidth="1000.0" style="-fx-background-color: grey;" />
+      <Pane layoutX="7.0" layoutY="668.0" prefHeight="34.0" prefWidth="1269.0" style="-fx-background-radius: 0 0 10 10;" styleClass="background" stylesheets="@../css/style.css">
+         <children>
+            <Label layoutX="1098.0" layoutY="-3.0" prefHeight="34.0" prefWidth="164.0" text="TabulationProject v-1.0" textFill="#bfb6b6">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

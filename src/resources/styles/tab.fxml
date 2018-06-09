@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.tabController">
+   <children>
+      <TableView layoutX="31.0" layoutY="55.0" prefHeight="429.0" prefWidth="926.0" style="-fx-background-color: lightslategrey; -fx-border-style: solid;" styleClass="table-row-cell" stylesheets="@../css/style.css">
+        <columns>
+          <TableColumn prefWidth="94.0" text="Candidate #" />
+          <TableColumn prefWidth="212.0" text="Fullname" />
+            <TableColumn prefWidth="147.0" text="Category ID" />
+            <TableColumn prefWidth="124.0" text="Judge ID" />
+            <TableColumn prefWidth="151.0" text="Score" />
+            <TableColumn prefWidth="198.0" text="Time Log" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="31.0" layoutY="25.0" prefHeight="32.0" prefWidth="926.0" style="-fx-background-color: lightgrey; -fx-background-radius: 10 10 0 0; -fx-border-radius: 10 10 0 0; -fx-border-style: solid;" text="Tabulation Result" />
+   </children>
+</AnchorPane>

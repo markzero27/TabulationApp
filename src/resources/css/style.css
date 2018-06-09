@@ -1,0 +1,27 @@
+.background {
+    -fx-background-color: linear-gradient(to left, lightcoral, darkred);
+}
+
+.button:hover{
+    -fx-background-color: darkgrey;
+}
+
+.table-row-cell {
+    -fx-background-color: lightslategrey;
+}
+
+.table-row-cell:empty {
+    -fx-background-color: lightslategrey;
+}
+
+.table-row-cell:hover{
+    -fx-background-color: lightgray;
+}
+
+.table-row-cell:selected{
+    -fx-background-color: darkslategray;
+
+}
+
+
+
